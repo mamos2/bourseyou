@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'bourseyou.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',  # Backends disponibles : 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'algobourse',  # Nom de la base de données
-        'USER': 'root',            # Utilisateur
-        'PASSWORD': 'facesimplon',        # Mot de passe si nécessaire
-        'HOST': '',         # Utile si votre base de données est sur une autre machine
-        'PORT': '',                  # ... et si elle utilise un autre port que celui par défaut
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'algobourse',
+        'USER': 'root',
+        'PASSWORD': 'facesimplon',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
