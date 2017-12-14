@@ -1,9 +1,8 @@
-from django.urls import include, path
-
-from . import views
+from django.urls import path
+from django.contrib import admin
+from algobourso import views
 
 urlpatterns = [
-    # ex: /polls/
-    path (r'^$', views.index, name='index'),
-
+    path('admin/', admin.site.urls),
+    path('accueil/', views.index),
 ]

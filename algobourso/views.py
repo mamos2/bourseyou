@@ -4,9 +4,8 @@ from django.http import HttpResponse
 from django.template import loader
 
 
-
-
 def index(request):
-    template = loader.get_template('algobourso/index.html')
+    #template = loader.get_template('algobourso/index.html')
 
-    return HttpResponse(template.render(context, request))
+    #return HttpResponse(template.render(request))
+    return render(request, 'algobourso/index.html')
