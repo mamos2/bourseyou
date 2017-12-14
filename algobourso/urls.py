@@ -4,5 +4,5 @@ from algobourso import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('accueil/', views.index),
+    path('', views.index),
 ]
