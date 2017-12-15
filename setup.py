@@ -2,11 +2,11 @@ from setuptools import setup
 
 setup(
     name='bourseyou',
-    version='0.1',
+    version='0.2',
     packages=['bourseyou', 'algobourso', 'algobourso.migrations'],
     url='',
-    license='',
+    license='private',
     author='Mhamed.E',
     author_email='elmhamed35@gmail.com',
-    description='app  de bourse'
+    description=''
 )
