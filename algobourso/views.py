@@ -8,4 +8,4 @@ def index(request):
     #template = loader.get_template('algobourso/index.html')
 
     #return HttpResponse(template.render(request))
-    return render(request, 'algobourso/index.html')
+    return render(request, 'pages/index.html')
